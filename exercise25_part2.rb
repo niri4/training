@@ -1,6 +1,8 @@
 require "./exercise25_part1.rb"
+include Ex25
 
 sentence = "All good things come to those who wait."
+#ob = Ex25.new()
 words = Ex25.break_words(sentence)
 puts words
 sorted_words = Ex25.sort_words(words)
